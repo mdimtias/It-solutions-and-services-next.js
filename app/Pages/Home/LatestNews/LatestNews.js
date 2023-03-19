@@ -56,7 +56,7 @@ const LatestNews = () => {
                             </div>
                             <div className="blog-author-info flex gap-5 px-5 py-5">
                                 <div className="author-img">
-                                    <Image src={Author1} className="w-14 h-14 rounded-full"></Image>
+                                    <Image src={Author2} className="w-14 h-14 rounded-full"></Image>
                                 </div>
                                 <div className="author-name-date">
                                     <h3 className="text-base font-bold hover:text-[#2667FC] transition-all duration-300">Jane Martin</h3>
@@ -79,7 +79,7 @@ const LatestNews = () => {
                             </div>
                             <div className="blog-author-info flex gap-5 px-5 py-5">
                                 <div className="author-img">
-                                    <Image src={Author1} className="w-14 h-14 rounded-full"></Image>
+                                    <Image src={Author3} className="w-14 h-14 rounded-full"></Image>
                                 </div>
                                 <div className="author-name-date">
                                     <h3 className="text-base font-bold hover:text-[#2667FC] transition-all duration-300">Jane Martin</h3>
