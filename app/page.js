@@ -1,3 +1,4 @@
+import FeaturedServices from "./Pages/Home/FeaturedServices/FeaturedServices";
 import Hero from "./Pages/Home/Hero/Hero";
 import Integration from "./Pages/Home/Integration/Integration";
 import LatestNews from "./Pages/Home/LatestNews/LatestNews";
@@ -15,7 +16,8 @@ export default function Home() {
         <LatestNews></LatestNews>
         <Testimonial></Testimonial> */}
         {/* <WorkProcess></WorkProcess> */}
-        <Reports></Reports>
+        {/* <Reports></Reports> */}
+        <FeaturedServices></FeaturedServices>
     </main>
   )
 }
