@@ -10,7 +10,6 @@ const Hero = () => {
         <section className="hero-section py-12 lg:py-24 min-h-screen bg-[#111827] relative">
             <Image src={HeroBottomImage} alt="It Consultancy" className="absolute bottom-0"></Image>
             <div className="container mx-auto px-5">
-                {/* <div className="flex items-center justify-between flex-col md:flex-row"> */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                     <div className="hero-section-content xl:pr-10">
                         <h5 className="text-yellow-400 text-md font-semibold">#1 Software Company In World</h5>
