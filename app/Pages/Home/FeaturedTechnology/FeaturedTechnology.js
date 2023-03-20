@@ -1,6 +1,6 @@
 import Image from "next/image";
-import FeaturedHero from "./../../../../assets/Feature/feature-hero-img.svg";
-import FeaturedHeroTwo from "./../../../../assets/Feature/feature-hero-img-2.svg";
+import FeaturedHero from "./../../../assets/Feature/feature-hero-img.svg";
+import FeaturedHeroTwo from "./../../../assets/Feature/feature-hero-img-2.svg";
 
 const FeaturedTechnology = () => {
   return (
