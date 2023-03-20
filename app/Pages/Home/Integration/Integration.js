@@ -13,12 +13,16 @@ import Slack from "./../../../assets/TopBrand/slack.png";
 import GoogleAnalytics from "./../../../assets/TopBrand/google-analytics.png";
 import HubSpot from "./../../../assets/TopBrand/hub-spot.png";
 import Instagram from "./../../../assets/TopBrand/instagram.png";
+import MailChimp from "./../../../assets/TopBrand/mailChimp.png";
+import GoogleDrive from "./../../../assets/TopBrand/google-drive.png";
+import Linkedin from "./../../../assets/TopBrand/linkedin.png";
+import Marekto from "./../../../assets/TopBrand/marekto.png";
 import Image from "next/image";
 const Integration = () => {
   return (
     <div className="integration-section py-14 lg:py-28 bg-white">
       <div className="container mx-auto px-5">
-        <div className="section-heading grid grid-cols-1 lg:grid-cols-2 gap-5 justify-between">
+        <div className="section-heading grid grid-cols-1 lg:grid-cols-2 gap-5 justify-between items-center">
           <div>
             <h4 className="text-base text-[#175CFF] font-bold mb-2">
               Integration
@@ -32,8 +36,8 @@ const Integration = () => {
             </p>
           </div>
           <div>
-            <button className="py-3 px-10 text-white bg-[#124acc] hover:bg-[#0044e3] rounded-lg font-bold">
-              Integration
+            <button className="py-3 px-10 text-white lg:text-right bg-[#124acc] hover:bg-[#0044e3] rounded-lg font-bold">
+             View All Integrations
             </button>
           </div>
         </div>
@@ -97,6 +101,22 @@ const Integration = () => {
           <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
             <Image src={HubSpot} alt="HubSpot" className="mb-2" />
             <h3 className="font-bold text-xl text-black">HubSpot</h3>
+          </div>
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+            <Image src={MailChimp} alt="MailChimp" className="mb-2" />
+            <h3 className="font-bold text-xl text-black">MailChimp</h3>
+          </div>
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+            <Image src={Linkedin} alt="Linkedin" className="mb-2" />
+            <h3 className="font-bold text-xl text-black">Linkedin</h3>
+          </div>
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+            <Image src={GoogleDrive} alt="GoogleDrive" className="mb-2" />
+            <h3 className="font-bold text-xl text-black">Google Drive</h3>
+          </div>
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+            <Image src={Marekto} alt="Marekto" className="mb-2" />
+            <h3 className="font-bold text-xl text-black">Marekto</h3>
           </div>
         </div>
       </div>
