@@ -1,3 +1,4 @@
+import BestServices from "./Pages/Home/BestServices/BestServices";
 import FeaturedServices from "./Pages/Home/FeaturedServices/FeaturedServices";
 import FeaturedTechnology from "./Pages/Home/FeaturedTechnology/FeaturedTechnology";
 import Hero from "./Pages/Home/Hero/Hero";
@@ -12,7 +13,8 @@ import WorkProcess from "./Pages/Home/WorkProcess/WorkProcess";
 export default function Home() {
   return (
     <main className="">
-        <Navbar></Navbar>
+      <BestServices></BestServices>
+        {/* <Navbar></Navbar>
         <Hero></Hero>
        <FeaturedServices></FeaturedServices>
        <FeaturedTechnology></FeaturedTechnology>
@@ -21,7 +23,7 @@ export default function Home() {
         <Testimonial></Testimonial>
         <Subscribe></Subscribe>
         <Integration></Integration>
-        <LatestNews></LatestNews>
+        <LatestNews></LatestNews> */}
     </main>
   )
 }

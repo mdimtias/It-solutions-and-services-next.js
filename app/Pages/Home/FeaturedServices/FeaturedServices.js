@@ -152,7 +152,7 @@ const FeaturedServices = () => {
           </div>
         )}
 
-        {/* Automation Power */}
+        {/* Advance Technology */}
         {activeSection === "advanced-technology" && (
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-8 items-center">
             <div className="service-content mt-10">
