@@ -20,103 +20,103 @@ import Marekto from "./../../../assets/TopBrand/marekto.png";
 import Image from "next/image";
 const Integration = () => {
   return (
-    <div className="integration-section py-14 lg:py-28 bg-white">
+    <div className="integration-section py-14 lg:py-28 bg-white dark:bg-[#171717]">
       <div className="container mx-auto px-5">
         <div className="section-heading grid grid-cols-1 lg:grid-cols-2 gap-5 justify-between items-center">
           <div>
             <h4 className="text-base text-[#175CFF] font-bold mb-2">
               Integration
             </h4>
-            <h2 className="text-4xl font-bold mb-3 text-black">
+            <h2 className="text-4xl font-bold mb-3 text-black dark:text-white">
               We Collaborate with Top Software Company
             </h2>
-            <p className="text-base text-[#939393]">
+            <p className="text-base text-[#939393] dark:text-[#a3a3a3]">
               Dynamically pursue convergence rather than 24/7 process
               improvements develop end-to-end customer service action items.
             </p>
           </div>
-          <div>
+          <div className="lg:text-right">
             <button className="py-3 px-10 text-white lg:text-right bg-[#124acc] hover:bg-[#0044e3] rounded-lg font-bold">
              View All Integrations
             </button>
           </div>
         </div>
         <div className="top-brands mt-10 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-7">
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Airbnb} alt="Airbnb" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Airbnb</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Airbnb</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Figma} alt="Airbnb" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Figma</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Figma</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Facebook} alt="Facebook" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Facebook</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Facebook</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={SalesForce} alt="Sales Force" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Sales Force</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Sales Force</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Atlassian} alt="Atlassian" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Atlassian</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Atlassian</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={DropBox2} alt="DropBox2" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Drop Box</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Drop Box</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Dynamic365} alt="Dynamic365" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Dynamic365</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Dynamic365</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={ERecruiter} alt="ERecruiter" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">ERecruiter</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">ERecruiter</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={EverNote} alt="EverNote" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">EverNote</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">EverNote</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Google} alt="Google" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Google</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Google</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Slack} alt="Slack" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Slack</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Slack</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image
               src={GoogleAnalytics}
               alt="GoogleAnalytics"
               className="mb-2"
             />
-            <h3 className="font-bold text-xl text-black">Analytics</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Analytics</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Instagram} alt="Instagram" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Instagram</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Instagram</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={HubSpot} alt="HubSpot" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">HubSpot</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">HubSpot</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={MailChimp} alt="MailChimp" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">MailChimp</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">MailChimp</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Linkedin} alt="Linkedin" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Linkedin</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Linkedin</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={GoogleDrive} alt="GoogleDrive" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Google Drive</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Google Drive</h3>
           </div>
-          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300">
+          <div className="top-brand rounded-md py-5 shadow-[0_5px_50px_rgba(13,21,55,.06)] hover:shadow-[0_20px_20px_0_rgba(2,19,79,.1)] flex flex-col justify-center items-center  hover:translate-y-[-2px] transition-all duration-300 dark:bg-[#0C0800]">
             <Image src={Marekto} alt="Marekto" className="mb-2" />
-            <h3 className="font-bold text-xl text-black">Marekto</h3>
+            <h3 className="font-bold text-xl text-black dark:text-white">Marekto</h3>
           </div>
         </div>
       </div>

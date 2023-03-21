@@ -15,7 +15,7 @@ const Subscribe = () => {
           </p>
         </div>
         <div className="subscribe-form flex gap-3 justify-center">
-          <div>
+          <div className="w-full">
             <input
               type="text"
               className="px-2 py-3 bg-white w-full rounded-lg outline-none"
@@ -23,7 +23,7 @@ const Subscribe = () => {
             />
           </div>
           <div>
-            <button className="py-3 px-5 text-white bg-[#124acc] hover:bg-[#0044e3] rounded-lg font-bold">
+            <button className="py-3 px-5 w-32 text-white bg-[#124acc] hover:bg-[#0044e3] rounded-lg font-bold">
               Join
             </button>
           </div>

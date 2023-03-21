@@ -15,7 +15,7 @@ import WorkProcess from "./Pages/Home/WorkProcess/WorkProcess";
 export default function Home() {
   return (
     <main className="">
-        {/* <Navbar></Navbar>
+         <Navbar></Navbar>
         <Hero></Hero>
         <TopBrand></TopBrand>
         <BestServices></BestServices>
@@ -26,7 +26,7 @@ export default function Home() {
         <Testimonial></Testimonial>
         <Subscribe></Subscribe>
         <Integration></Integration>
-        <LatestNews></LatestNews> */}
+        <LatestNews></LatestNews> 
         <Footer></Footer>
     </main>
   )
