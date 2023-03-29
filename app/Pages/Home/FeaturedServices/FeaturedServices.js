@@ -19,7 +19,7 @@ const FeaturedServices = () => {
   };
 
   return (
-    <section className="py-10 lg:py-20 bg-[#FAFAFA] dark:bg-[#262626]">
+    <section className="py-10 lg:py-20 bg-[#FAFAFA] dark:bg-[#262626] overflow-hidden">
       <div className="container mx-auto px-5">
         <div className="section-heading text-center">
           <h4 className="text-xl text-[#175CFF] font-semibold mb-2">Features</h4>
@@ -69,7 +69,7 @@ const FeaturedServices = () => {
 
         {/* Ai */}
         {activeSection === "ai" && (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-8 items-center">
+          <div  data-aos="fade-up-right" className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-8 items-center">
             <div className="service-content mt-10">
               <h2 className="font-bold text-3xl text-black mb-3 dark:text-white">
                 AI & Data Science
@@ -111,7 +111,7 @@ const FeaturedServices = () => {
 
         {/* Automation Power */}
         {activeSection === "automation-power" && (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-8 items-center">
+          <div  data-aos="fade-up-left" className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-8 items-center">
             <div className="service-image">
               <Image src={AutomationPower} alt="Automation Power" />
             </div>
@@ -154,7 +154,7 @@ const FeaturedServices = () => {
 
         {/* Advance Technology */}
         {activeSection === "advanced-technology" && (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-8 items-center">
+          <div  data-aos="fade-up-right" className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-8 items-center">
             <div className="service-content mt-10">
               <h2 className="font-bold text-3xl text-black mb-3 dark:text-white">
                 Advanced Technology

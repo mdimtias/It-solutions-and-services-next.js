@@ -8,7 +8,7 @@ const Reports = () => {
       <div className="hidden md:block top-rounded-circle absolute bottom-[-240px] w-72 h-72 lg:w-80 lg:h-80 bg-[#404040] left-[35%] rounded-full"></div>
       <div className="container mx-auto px-5">
         <div className="grid grid-cols-1 items-center lg:grid-cols-2 gap-10 lg:gap-5">
-          <div className="flex flex-col lg:mr-20">
+          <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col lg:mr-20">
             <h2 className="font-bold text-4xl text-white mb-3">
               Actionable Reports to Grow your Business
             </h2>
@@ -21,8 +21,8 @@ const Reports = () => {
               Get Start Now
             </button>
           </div>
-          <div className="success-rate relative">
-            <Image src={Blob} className="w-full h-full absolute"></Image>
+          <div data-aos="fade-up" data-aos-duration="1000" className="success-rate relative">
+            <Image src={Blob} className="w-full h-full absolute" alt=""></Image>
             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5 relative">
               <div className="flex flex-col gap-5">
                 <div className="bg-white flex flex-col justify-center items-center py-10 px-10 rounded-xl">

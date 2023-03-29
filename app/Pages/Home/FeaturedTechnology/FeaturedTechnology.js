@@ -4,10 +4,10 @@ import FeaturedHeroTwo from "./../../../assets/Feature/feature-hero-img-2.svg";
 
 const FeaturedTechnology = () => {
   return (
-    <section className="featured-technology-section py-12 lg:py-24 min-h-screen bg-white relative dark:bg-[#171717]">
+    <section className="featured-technology-section py-12 lg:py-24 min-h-screen bg-white relative dark:bg-[#171717] overflow-hidden">
       <div className="container mx-auto px-5">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className="featured-technology-content">
+          <div  data-aos="fade-right" className="featured-technology-content">
             <div>
               <h2 className="text-5xl text-black font-bold mb-3 dark:text-white">
                 We are development experts on all technologies
@@ -104,13 +104,13 @@ const FeaturedTechnology = () => {
               </div>
             </div>
           </div>
-          <div className="feature-hero-imag mt-6 lg:mt-0 flex items-center">
+          <div  data-aos="fade-left" className="feature-hero-imag mt-6 lg:mt-0 flex items-center">
             <Image src={FeaturedHero} alt="Technology"></Image>
           </div>
-          <div className="feature-hero-imag mt-6 lg:mt-0 pt-0 lg:pt-20 order-1 lg:-order-none">
+          <div data-aos="fade-left" className="feature-hero-imag mt-6 lg:mt-0 pt-0 lg:pt-20 order-1 lg:-order-none">
             <Image src={FeaturedHeroTwo} alt="Technology"></Image>
           </div>
-          <div className="feature-service-content pt-12 lg:pt-20">
+          <div data-aos="fade-right" className="feature-service-content pt-12 lg:pt-20">
             <div>
               <h2 className="text-5xl text-black font-bold mb-3 dark:text-white">
                 We run all kinds of services in form of software

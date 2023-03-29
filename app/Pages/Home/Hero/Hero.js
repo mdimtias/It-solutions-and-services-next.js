@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import RotoShow from "./../../../assets/Client/client-1.svg";
@@ -5,13 +6,21 @@ import Waves from "./../../../assets/Client/client-2.svg";
 import HeroImage from "./../../../assets/Hero/hero-image.svg";
 import HeroBottomImage from "./../../../assets/Hero/hero-bottom-image.svg";
 import Animated from "./../../../assets/Hero/animated-screen-2.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Hero = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
-        <section className="hero-section py-12 lg:py-24 min-h-screen bg-[#111827] relative">
+        <section className="hero-section py-12 lg:py-24 min-h-screen bg-[#111827] relative overflow-hidden">
             <Image src={HeroBottomImage} alt="It Consultancy" className="absolute bottom-0"></Image>
             <div className="container mx-auto px-5">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-                    <div className="hero-section-content xl:pr-10">
+                    <div data-aos="fade-right" data-aos-duration="1000" className="hero-section-content xl:pr-10">
                         <h5 className="text-yellow-400 text-md font-semibold">#1 Software Company In World</h5>
                         <h1 className="text-white font-extrabold text-5xl py-3">Advanced Feature to Grow Your Business</h1>
                         <p className="text-lg text-[#d9d9d9]">Proactively coordinate quality quality vectors vis-a-vis supply chains engage client-centric web services.</p>
@@ -28,7 +37,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="hero-section-mage relative pt-5 md:pt-0 flex items-end">
+                    <div data-aos="fade-left" data-aos-duration="1000" className="hero-section-mage relative pt-5 md:pt-0 flex items-end">
                         <Image className="absolute right-0 top-16 xl:top-0" src={Animated} alt="Software Development"></Image>
                         <Image className="relative z-10" src={HeroImage} alt="Software Development"></Image>
                     </div>

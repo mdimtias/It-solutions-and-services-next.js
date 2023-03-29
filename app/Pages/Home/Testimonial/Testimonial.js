@@ -8,7 +8,7 @@ import Star from "./Star";
 
 const Testimonial = () => {
   return (
-    <section className="py-10 lg:py-20 bg-[#FAFAFA] dark:bg-[#262626]">
+    <section className="py-10 lg:py-20 bg-[#FAFAFA] dark:bg-[#262626] overflow-hidden">
       <div className="container mx-auto px-5">
         <div className="section-header text-center flex flex-col justify-center">
           <h4 className="font-bold text-lg text-[#175CFF] mb-2">Testimonial</h4>
@@ -24,7 +24,7 @@ const Testimonial = () => {
           </div>
         </div>
         <div className="review-section grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
-          <div className="single-review border-2 border-[#404040] rounded-xl py-7 px-7">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className="single-review border-2 border-[#404040] rounded-xl py-7 px-7">
             <div className="review-user-info flex gap-5 items-center mb-7">
               <div className="img relative">
                 <Image
@@ -56,7 +56,7 @@ const Testimonial = () => {
             </div>
           </div>
 
-          <div className="single-review border-2 border-[#404040] rounded-xl py-7 px-7">
+          <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" className="single-review border-2 border-[#404040] rounded-xl py-7 px-7">
             <div className="review-user-info flex gap-5 items-center mb-7">
               <div className="img relative">
                 <Image
@@ -87,7 +87,7 @@ const Testimonial = () => {
             </div>
           </div>
 
-          <div className="single-review border-2 border-[#404040] rounded-xl py-7 px-7">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className="single-review border-2 border-[#404040] rounded-xl py-7 px-7">
             <div className="review-user-info flex gap-5 items-center mb-7">
               <div className="img relative">
                 <Image
@@ -118,7 +118,7 @@ const Testimonial = () => {
               <Star></Star>
             </div>
           </div>
-          <div className="single-review border-2 border-[#404040] rounded-xl py-7 px-7">
+          <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"  className="single-review border-2 border-[#404040] rounded-xl py-7 px-7">
             <div className="review-user-info flex gap-5 items-center mb-7">
               <div className="img relative">
                 <Image
@@ -144,7 +144,7 @@ const Testimonial = () => {
                 Amazing Quiety template!
               </h3>
               <p className="text-[#737373] text-base dark:text-[#a3a3a3]">
-              Slack has revolutionized the way our team communicates. It's easy to use and helps us stay organized and connected, even when working remotely.
+              Slack has revolutionized the way our team communicates. It&apos;s easy to use and helps us stay organized and connected, even when working remotely.
               </p>
               <Star></Star>
             </div>

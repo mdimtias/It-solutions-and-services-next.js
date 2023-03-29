@@ -9,7 +9,6 @@ import MenuBar from "./MenuBar";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [darkMode, setDarkMode] = useState(false)
-  console.log(darkMode)
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
@@ -19,19 +18,29 @@ const Navbar = () => {
   };
 
   useEffect(() => {
+    const theme = localStorage.getItem('theme');
+    if (theme === 'dark') {
+      setDarkMode(true);
+    }
+  }, []);
+
+  useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark');
       localStorage.setItem('theme', 'dark');
+
     } else {
       document.documentElement.classList.remove('dark');
       localStorage.setItem('theme', 'light');
     }
   }, [darkMode]);
+
+
   return (
     <section className="menu-section bg-white h-[90px] flex items-center relative dark:bg-[#0C0800]">
       <div className="container mx-auto px-5 flex items-center justify-between">
         <div className="logo flex gap-5 items-center">
-          <Image src={Logo} className="w-16 h-16"></Image>
+          <Image src={Logo} className="w-16 h-16" alt=""></Image>
           <h2 className="text-black font-bold text-3xl">SoftBik</h2>
         </div>
         <div className="menu">
@@ -115,7 +124,7 @@ const Navbar = () => {
         <div className="top-0 right-0 w-full md:w-[400px] z-10 bg-white py-5 px-5 lg:hidden absolute dark:bg-[#0C0800]">
           <div className="logo flex gap-5 items-center justify-between">
             <div className="flex gap-5 items-center">
-              <Image src={Logo} className="w-16 h-16"></Image>
+              <Image src={Logo} className="w-16 h-16" alt=""></Image>
               <h2 className="text-black font-bold text-3xl">SoftBik</h2>
             </div>
 

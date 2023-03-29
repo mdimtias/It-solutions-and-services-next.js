@@ -1,10 +1,11 @@
 const Subscribe = () => {
   return (
     <section className="bg-[#111827] py-14 lg:py-28 flex justify-center relative overflow-hidden">
-      <div className="subscribe">
+      <div className="container mx-auto px-5">
+      <div data-aos="fade-up" data-aos-duration="1000" className="subscribe">
         <div className="section-heading text-center">
           <h4 className="text-base text-yellow-400 font-bold mb-3">
-            Let's Try! Get Free Support
+            Let&apos;s Try! Get Free Support
           </h4>
           <h2 className="text-4xl font-bold text-white mb-3">
             Start Your 14-Day Free Trial
@@ -15,7 +16,7 @@ const Subscribe = () => {
           </p>
         </div>
         <div className="subscribe-form flex gap-3 justify-center">
-          <div className="w-full">
+          <div className="">
             <input
               type="text"
               className="px-2 py-3 bg-white w-full rounded-lg outline-none"
@@ -28,7 +29,7 @@ const Subscribe = () => {
             </button>
           </div>
         </div>
-        <div className="subscribe-list flex gap-5 pt-5 flex-wrap">
+        <div className="subscribe-list flex gap-5 pt-5 justify-center flex-wrap">
           <div className="flex gap-2 items-center">
             <svg
               fill="currentColor"
@@ -69,6 +70,7 @@ const Subscribe = () => {
             <p className="text-base text-[#d9d9d9]">Get our updated</p>
           </div>
         </div>
+      </div>
       </div>
       <div className="hidden md:block top-rounded-circle absolute top-[-240px] w-72 h-72 lg:w-80 lg:h-80 bg-[#FFC300] right-[5%] rounded-full"></div>
       <div className="hidden md:block top-rounded-circle absolute bottom-[-240px] w-72 h-72 lg:w-80 lg:h-80 bg-[#404040] left-[5%] rounded-full"></div>

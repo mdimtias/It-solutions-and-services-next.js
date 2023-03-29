@@ -3,7 +3,7 @@ import AnswerArrow from "./AnswerArrow";
 import RightArrow from "./RightArrow";
 const BestServices = () => {
   return (
-    <section className="py-10 lg:py-20 bg-[#111827]">
+    <section className="py-10 lg:py-20 bg-[#111827] overflow-hidden">
       <div className="container mx-auto px-5">
         <div className="section-heading text-center flex flex-col justify-center items-center">
           <h4 className="text-base text-[#175CFF] font-bold mb-3">Services</h4>
@@ -11,13 +11,13 @@ const BestServices = () => {
             Best Services Grow Your Business Value
           </h2>
           <d className="flex justify-center items-center">
-            <p className="text-[#737373] text-base mb-3 lg:w-[60%]">
+            <p className="text-[#737373] text-base mb-3 lg:w-[60%] dark:text-[#d9d9d9]">
               Globally actualize cost effective with resource maximizing
               leadership skills.
             </p>
           </d>
         </div>
-        <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10 justify-center mb-10">
+        <div data-aos="zoom-out-right" className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10 justify-center mb-10">
           <div className="service-item p-12 bg-[rgba(255,255,255,.1)] flex flex-col gap-5 rounded-xl border-[3px] border-[#29303D] hover:border-[#175cff] hover:bg-[#111827] hover:translate-3 transition-all duration-500">
             <div className="icon flex justify-center items-center bg-[#124acc] p-5 w-16 h-16 rounded-lg">
               <svg
@@ -111,7 +111,9 @@ const BestServices = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col justify-between gap-7">
+          <div className="flex flex-col justify-between gap-7" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <div className="service-item p-12 bg-[rgba(255,255,255,.1)] flex flex-col gap-5 rounded-xl border-[3px] border-[#29303D] hover:border-[#175cff] hover:bg-[#111827] hover:translate-3 transition-all duration-500">
               <div className="icon flex justify-center items-center bg-[#273d26] p-5 w-16 h-16 rounded-lg">
                 <svg
@@ -178,7 +180,9 @@ const BestServices = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-between gap-7">
+          <div className="flex flex-col justify-between gap-7" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <div className="service-item h-full p-12 bg-[rgba(255,255,255,.1)] flex flex-col gap-5 rounded-xl border-[3px] border-[#29303D] hover:border-[#175cff] hover:bg-[#111827] hover:translate-3 transition-all duration-500">
               <div className="icon flex justify-center items-center bg-[#41282A] p-5 w-16 h-16 rounded-lg">
                 <svg

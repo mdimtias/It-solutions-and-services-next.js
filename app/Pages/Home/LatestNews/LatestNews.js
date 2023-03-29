@@ -9,7 +9,7 @@ import Author3 from "./../../../assets/Author/3.jpg";
 
 const LatestNews = () => {
     return (
-       <section className="latest-news-section py-10 lg:py-20 bg-[#FAFAFA] dark:bg-[#262626]">
+       <section className="latest-news-section py-10 lg:py-20 bg-[#FAFAFA] dark:bg-[#262626] overflow-hidden">
             <div className="container mx-auto px-5">
                 <div className="section-header text-center flex flex-col justify-center">
                     <h4 className="font-bold text-lg text-[#175CFF] mb-2">Blog</h4>
@@ -19,9 +19,9 @@ const LatestNews = () => {
                     </div>
                 </div>
                 <div className="blogs-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-14">
-                    <div className="latest-blog rounded-xl overflow-hidden bg-white hover:shadow-xl dark:bg-[#171717]">
+                    <div data-aos="fade-right" className="latest-blog rounded-xl overflow-hidden bg-white hover:shadow-xl dark:bg-[#171717]">
                         <div className="blog-image overflow-hidden">
-                            <Image src={Blog1} className="object-cover hover:scale-125 transition ease-in delay-150 duration-500"></Image>
+                            <Image src={Blog1} className="object-cover hover:scale-125 transition ease-in delay-150 duration-500" alt=""></Image>
                         </div>
                         <div className='blog transition delay-150 duration-500'>
                             <div className="blog-category py-5 px-5">
@@ -33,7 +33,7 @@ const LatestNews = () => {
                             </div>
                             <div className="blog-author-info flex gap-5 px-5 py-5">
                                 <div className="author-img">
-                                    <Image src={Author1} className="w-14 h-14 rounded-full"></Image>
+                                    <Image src={Author1} className="w-14 h-14 rounded-full" alt=""></Image>
                                 </div>
                                 <div className="author-name-date">
                                     <h3 className="text-base font-bold hover:text-[#2667FC] transition-all duration-300 dark:text-white">Jane Martin</h3>
@@ -42,9 +42,9 @@ const LatestNews = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="latest-blog rounded-xl overflow-hidden bg-white hover:shadow-xl dark:bg-[#171717]">
+                    <div data-aos="fade-up" className="latest-blog rounded-xl overflow-hidden bg-white hover:shadow-xl dark:bg-[#171717]">
                         <div className="blog-image overflow-hidden">
-                            <Image src={Blog2} className="object-cover hover:scale-125 transition ease-in delay-150 duration-500"></Image>
+                            <Image src={Blog2} className="object-cover hover:scale-125 transition ease-in delay-150 duration-500" alt=""></Image>
                         </div>
                         <div className='blog transition delay-150 duration-500'>
                             <div className="blog-category py-5 px-5">
@@ -56,7 +56,7 @@ const LatestNews = () => {
                             </div>
                             <div className="blog-author-info flex gap-5 px-5 py-5">
                                 <div className="author-img">
-                                    <Image src={Author2} className="w-14 h-14 rounded-full"></Image>
+                                    <Image src={Author2} className="w-14 h-14 rounded-full" alt=""></Image>
                                 </div>
                                 <div className="author-name-date">
                                     <h3 className="text-base font-bold hover:text-[#2667FC] transition-all duration-300 dark:text-white">Jane Martin</h3>
@@ -65,9 +65,9 @@ const LatestNews = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="latest-blog rounded-xl overflow-hidden bg-white hover:shadow-xl dark:bg-[#171717]">
+                    <div data-aos="fade-left" className="latest-blog rounded-xl overflow-hidden bg-white hover:shadow-xl dark:bg-[#171717]">
                         <div className="blog-image overflow-hidden">
-                            <Image src={Blog3} className="object-cover hover:scale-125 transition ease-in delay-150 duration-500"></Image>
+                            <Image src={Blog3} className="object-cover hover:scale-125 transition ease-in delay-150 duration-500" alt=""></Image>
                         </div>
                         <div className='blog transition delay-150 duration-500'>
                             <div className="blog-category py-5 px-5">
@@ -79,7 +79,7 @@ const LatestNews = () => {
                             </div>
                             <div className="blog-author-info flex gap-5 px-5 py-5">
                                 <div className="author-img">
-                                    <Image src={Author3} className="w-14 h-14 rounded-full"></Image>
+                                    <Image src={Author3} className="w-14 h-14 rounded-full" alt=""></Image>
                                 </div>
                                 <div className="author-name-date">
                                     <h3 className="text-base font-bold hover:text-[#2667FC] transition-all duration-300 dark:text-white">Jane Martin</h3>

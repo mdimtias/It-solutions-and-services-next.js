@@ -1,6 +1,6 @@
 const WorkProcess = () => {
     return (
-        <section className="py-10 lg:py-20 bg-white dark:bg-[#171717]">
+        <section className="py-10 lg:py-20 bg-white dark:bg-[#171717] overflow-hidden">
             <div className="container mx-auto px-5">
             <div className="section-heading text-center">
           <h4 className="text-base text-[#175CFF] font-bold mb-3">
@@ -16,7 +16,7 @@ const WorkProcess = () => {
          </d>
         </div>
         <div className="work-process grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-7">
-        <div className="work-plan rounded-xl px-8 py-12 flex justify-center items-center flex-col group hover:shadow-2xl relative dark:bg-[#171717] dark:hover:bg-[#000000] dark:hover:shadow-[0_5px_20px_0_rgba(210,210,245,.5)] transition duration-500 delay-150">
+        <div  data-aos="flip-left" className="work-plan rounded-xl px-8 py-12 flex justify-center items-center flex-col group hover:shadow-2xl relative dark:bg-[#171717] dark:hover:bg-[#000000] dark:hover:shadow-[0_5px_20px_0_rgba(210,210,245,.5)] transition duration-500 delay-150">
                 <div className="one p-5 border w-16 h-16 rounded-lg flex justify-center items-center border-gray-400 group-hover:bg-[#175CFF] text-[#175CFF] group-hover:text-white mb-4 dark:bg-[#262626] dark:border-[#262626] transition duration-500 delay-150">
                     <h3 className="font-bold hover:text-white text-4xl">1</h3>
                 </div>
@@ -26,7 +26,7 @@ const WorkProcess = () => {
                 </div>
                 <div className="dot-line hidden lg:block w-20 border-dashed border-[1px] border-[#175CFF] absolute -right-12 group-hover:-z-10"></div>
             </div>
-            <div className="work-plan rounded-xl px-8 py-12 flex justify-center items-center flex-col group hover:shadow-2xl relative dark:bg-[#171717] dark:hover:bg-[#000000] dark:hover:shadow-[0_5px_20px_0_rgba(210,210,245,.5)] transition duration-500 delay-150">
+            <div data-aos="flip-left" className="work-plan rounded-xl px-8 py-12 flex justify-center items-center flex-col group hover:shadow-2xl relative dark:bg-[#171717] dark:hover:bg-[#000000] dark:hover:shadow-[0_5px_20px_0_rgba(210,210,245,.5)] transition duration-500 delay-150">
                 <div className="one p-5 border w-16 h-16 rounded-lg flex justify-center items-center border-gray-400 group-hover:bg-[#175CFF] text-[#175CFF] group-hover:text-white mb-4 dark:bg-[#262626] dark:border-[#262626] transition duration-500 delay-150">
                     <h3 className="font-bold hover:text-white text-4xl">2</h3>
                 </div>
@@ -36,7 +36,7 @@ const WorkProcess = () => {
                 </div>
                 <div className="dot-line hidden lg:block  w-20 border-dashed border-[1px] border-[#175CFF] absolute -right-12 group-hover:-z-10"></div>
             </div>
-            <div className="work-plan rounded-xl px-8 py-12 flex justify-center items-center flex-col group hover:shadow-2xl relative dark:bg-[#171717] dark:hover:bg-[#000000] dark:hover:shadow-[0_5px_20px_0_rgba(210,210,245,.5)] transition duration-500 delay-150">
+            <div  data-aos="flip-left" className="work-plan rounded-xl px-8 py-12 flex justify-center items-center flex-col group hover:shadow-2xl relative dark:bg-[#171717] dark:hover:bg-[#000000] dark:hover:shadow-[0_5px_20px_0_rgba(210,210,245,.5)] transition duration-500 delay-150">
                 <div className="one p-5 border w-16 h-16 rounded-lg flex justify-center items-center border-gray-400 group-hover:bg-[#175CFF] text-[#175CFF] group-hover:text-white mb-4 dark:bg-[#262626] dark:border-[#262626] transition duration-500 delay-150">
                     <h3 className="font-bold hover:text-white text-4xl">3</h3>
                 </div>
@@ -46,7 +46,7 @@ const WorkProcess = () => {
                 </div>
                 <div className="dot-line hidden lg:block  w-20 border-dashed border-[1px] border-[#175CFF] absolute -right-12 group-hover:-z-10"></div>
             </div>
-            <div className="work-plan rounded-xl px-8 py-12 flex justify-center items-center flex-col group hover:shadow-2xl relative dark:bg-[#171717] dark:hover:bg-[#000000] dark:hover:shadow-[0_5px_20px_0_rgba(210,210,245,.5)] transition duration-500 delay-150">
+            <div data-aos="flip-left" className="work-plan rounded-xl px-8 py-12 flex justify-center items-center flex-col group hover:shadow-2xl relative dark:bg-[#171717] dark:hover:bg-[#000000] dark:hover:shadow-[0_5px_20px_0_rgba(210,210,245,.5)] transition duration-500 delay-150">
                 <div className="one p-5 border w-16 h-16 rounded-lg flex justify-center items-center border-gray-400 group-hover:bg-[#175CFF] text-[#175CFF] group-hover:text-white mb-4 dark:bg-[#262626] dark:border-[#262626] transition duration-500 delay-150">
                     <h3 className="font-bold hover:text-white text-4xl">4</h3>
                 </div>
