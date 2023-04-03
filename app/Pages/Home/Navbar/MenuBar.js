@@ -6,8 +6,8 @@ const MenuBar = () => {
         className="w-6 h-6 text-gray-500 hover:text-gray-700 dark:text-white"
         fill="none"
         strokeLinecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinejoin="round"
+        strokeWidth="2"
         viewBox="0 0 24 24"
         stroke="currentColor"
       >

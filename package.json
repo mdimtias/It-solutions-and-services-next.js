@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "-": "^0.0.1",
+    "@netlify/plugin-nextjs": "^4.33.0",
     "aos": "^2.3.4",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
@@ -20,7 +21,6 @@
     "swiper": "^9.1.1"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.33.0",
     "autoprefixer": "^10.4.14",
     "netlify-cli": "^13.2.2",
     "postcss": "^8.4.21",

@@ -13,7 +13,7 @@ import Slack from "./../../../assets/TopBrand/slack.png";
 import GoogleAnalytics from "./../../../assets/TopBrand/google-analytics.png";
 import HubSpot from "./../../../assets/TopBrand/hub-spot.png";
 import Instagram from "./../../../assets/TopBrand/instagram.png";
-import MailChimp from "./../../../assets/TopBrand/mailChimp.png";
+import MailChimp from "./../../../assets/TopBrand/mailchimp.png";
 import GoogleDrive from "./../../../assets/TopBrand/google-drive.png";
 import Linkedin from "./../../../assets/TopBrand/linkedin.png";
 import Marekto from "./../../../assets/TopBrand/marekto.png";
